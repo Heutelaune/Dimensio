@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+#ui-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 300px;
+    pointer-events: auto;
+}
+.control-button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.control-button:hover {
+    background: #45a049;
+}
+.control-button.active {
+    background: #FF6347;
+}
+#status {
+    margin-top: 10px;
+    padding: 5px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 5px;
+    font-size: 11px;
+}
+a-scene {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+} 
